@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: black !important;
+}
+header{
+    font-family: "Poppins";
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+header img{
+    height: 50px;
+    width: 100px;
+}
+.navbar .nav-button{
+    color: hsl(322, 100%, 66%);
+    border-radius: 20em;
+    border: 1px solid hsl(322, 100%, 66%);
+    box-shadow: 0px 1px 2px 1px #ccc;
+}
+
+/* hero section */
+.hero .heroButton{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 20em;
+    outline: none;
+}
+
+/* FeaturesBox  */
+.featuresBody:nth-of-type(odd){
+    background-color: hsl(207, 100%, 98%);
+}
+.featuresButton{
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 20em;
+    color: white;
+
+}
+/* footer Designs */
+.footerLogo{
+    background: transparent;
+    width: 140px;
+    height: 45px;
+}
+.contactImage{
+    width: 20px;
+    height: 20px;
+}
+i{
+    font-size: 20px;
+    margin-right: .5em;
+}
+input[type="text"]{
+    width: 80%; 
+}
+.subscribe-button{
+   
+}
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
