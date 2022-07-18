@@ -1,3 +1,4 @@
+@import url("https://fonts.google.com/specimen/Poppins");
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 }
 body{
     overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
 }
 a{
     text-decoration: none;
@@ -26,13 +28,22 @@ header img{
     border: 1px solid hsl(322, 100%, 66%);
     box-shadow: 0px 1px 2px 1px #ccc;
 }
-
+.navbar .nav-button:hover{
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    transition: .5s ease-in-out;
+}
 /* hero section */
 .hero .heroButton{
     background-color: hsl(322, 100%, 66%);
     color: white;
     border-radius: 20em;
     outline: none;
+}
+.hero .heroButton:hover{
+    color: hsl(322, 100%, 66%);
+    background-color: white;
+    transition: .5s ease-in-out;
 }
 
 /* FeaturesBox  */
@@ -46,6 +57,11 @@ header img{
 
 }
 /* footer Designs */
+.newsletterBody{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+
 .footerLogo{
     background: transparent;
     width: 140px;
@@ -63,14 +79,17 @@ input[type="text"]{
     width: 80%; 
 }
 .subscribe-button{
-   
+   color: white;
+   background-color: hsl(322, 100%, 66%); 
+   margin-top: 10em;
+}
+.subscribe-button:hover{
+    background-color: white;
+    color: hsl(322, 100%, 66%);
 }
 
 
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}

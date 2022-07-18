@@ -11,9 +11,6 @@
 
   <!-- Bootstrap Cdn Link-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-  
-  <!-- Google Fonts Link -->
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
@@ -130,49 +127,56 @@
 
 
 <!--NewsletterSection Starts Here  -->
-    <img src="./images/bg-footer-top-desktop.svg" class="mt-5" alt="">
-    <div class="container">
-      <section class="newsletter my-4 row">
-        <div class="col-md-6 my-3 text-start text-md-start text-center">
-          <img src="./images/logo.svg" class="footerLogo mb-3" alt="">
-          <p class="fw-semi-bold mb-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-            vestibulum a, ultrices quis sem.
-          </p>
-          <div class="contactFooter d-flex">
-            <img src="./images/icon-phone.svg" class="bg-dark me-3 contactImage" alt="">
-            <p> Phone: +1-543-123-4567</p>
+  <div class="newsletter">
+    <img src="./images/bg-footer-top-desktop.svg" class="img-fluid" alt="">
+    <div class="newsletterBody">
+      <div class="container">
+        <section class="newsletter row">
+          <div class="col-md-6 my-3 text-start text-md-start order-2 text-center">
+            <img src="./images/logo.svg" class="footerLogo mb-3" alt="">
+            <p class="fw-semi-bold mb-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+              vestibulum a, ultrices quis sem.
+            </p>
+            <div class="contactFooter d-flex justify-content-center justify-content-md-start">
+              <img src="./images/icon-phone.svg" class="bg-dark me-3 contactImage" alt="">
+              <p> Phone: +1-543-123-4567</p>
+            </div>
+            <div class="contactFooter d-flex justify-content-center justify-content-md-start">
+              <img src="./images/icon-email.svg" class="bg-dark me-3 contactImage" alt="">
+              <p>example@huddle.com</p>
+            </div>
+            <div class="social-links">
+              <i class="fa-brands fa-facebook-square"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-twitter-square"></i>
+            </div>
           </div>
-          <div class="contactFooter d-flex">
-            <img src="./images/icon-email.svg" class="bg-dark me-3 contactImage" alt="">
-            <p>example@huddle.com</p>
+          <div class="col-md-6 my-3 text-start text-md-start order-md-2 mb-5 text-center">
+            <h4>Newsletter</h4>
+            <p> To receive tips on how to grow your community, sign up to our weekly newsletter. We'll never 
+              send you spam or pass on your email address
+            </p>
+            <form >
+              <input type="text" class="d-block mx-auto">
+              <button class="btn subscribe-button d-block mt-4 w-40 mx-auto">Subscribe</button>
+            </form>
           </div>
-          <div class="social-links">
-            <i class="fa-brands fa-facebook-square"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter-square"></i>
-          </div>
-        </div>
-        <div class="col-md-6 my-3 text-start text-md-start text-center">
-          <h4>Newsletter</h4>
-          <p> To receive tips on how to grow your community, sign up to our weekly newsletter. We'll never 
-            send you spam or pass on your email address
-          </p>
-          <form >
-            <input type="text" class="d-block mx-auto">
-            <button class="btn subscribe-button d-block mt-2 w-40 mx-auto">Subscribe</button>
-          </form>
-        </div>
-      </section>
+        </section>
+      </div>
     </div>
     
+  </div>
+    
 <!-- NewsletterSection Ends Here -->
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Uchime Chike</a>.
-    </p>
-  </footer>
+  <div class="container">
+    <footer class="text-center py-3">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" class="text-white" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#" class="text-light name">Uchime Chike</a>.
+      </p>
+    </footer>
+  </div>
+ 
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
